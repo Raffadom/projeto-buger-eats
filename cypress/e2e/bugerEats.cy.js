@@ -169,6 +169,6 @@ describe('Buger Eats', () => {
           .should('not.be.visible')
       })
     })
-  }) 
-})
+  })
+}) 
 
