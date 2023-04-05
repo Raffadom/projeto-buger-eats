@@ -1,0 +1,20 @@
+{
+  "name": "projeto-buger-eats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open",
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix",
+    "test:mobile": "cypress run --config viewportWidth=410 viewportHeight=860"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.9.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
